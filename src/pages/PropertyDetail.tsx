@@ -5,6 +5,8 @@ import { properties, Property } from "@/data/properties";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import PropertyCarousel from "@/components/PropertyCarousel";
+import PropertyDetailFooter from "@/components/PropertyDetailFooter";
 import { 
   Bed, 
   Bath, 
@@ -25,6 +27,7 @@ const PropertyDetail = () => {
   const [property, setProperty] = useState<Property | null>(null);
   const [selectedImage, setSelectedImage] = useState<string>("");
   const [isLoading, setIsLoading] = useState(true);
+  const [otherProperties, setOtherProperties] = useState<Property[]>([]);
 
   useEffect(() => {
     // Scroll to top when page loads
@@ -40,6 +43,12 @@ const PropertyDetail = () => {
       if (foundProperty) {
         setProperty(foundProperty);
         setSelectedImage(foundProperty.images[0] || foundProperty.image);
+        
+        // Get other properties (excluding current one)
+        const others = properties
+          .filter(p => p.id !== foundProperty.id)
+          .slice(0, 4); // Limit to 4 properties for the carousel
+        setOtherProperties(others);
       }
       
       setIsLoading(false);
@@ -223,9 +232,25 @@ const PropertyDetail = () => {
             </div>
           </div>
         </div>
+        
+        {/* Similar Properties Carousel */}
+        {otherProperties.length > 0 && (
+          <section className="py-16 bg-estate-bgDark">
+            <div className="container mx-auto px-4 md:px-6">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl font-bold font-display text-white mb-2">Similar Properties</h2>
+                <p className="text-estate-lightText">
+                  Explore other properties you might be interested in
+                </p>
+              </div>
+              
+              <PropertyCarousel properties={otherProperties} />
+            </div>
+          </section>
+        )}
       </main>
       
-      <Footer />
+      <PropertyDetailFooter />
     </div>
   );
 };
