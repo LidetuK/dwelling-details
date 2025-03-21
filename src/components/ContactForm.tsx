@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { Property } from "@/data/properties";
@@ -17,6 +17,7 @@ const ContactForm = ({ property }: ContactFormProps) => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -32,6 +33,7 @@ const ContactForm = ({ property }: ContactFormProps) => {
     // Simulate API call
     setTimeout(() => {
       setIsSubmitting(false);
+      setFormSubmitted(true);
       toast.success("Thank you for your inquiry! We'll contact you shortly.");
       setFormData({
         name: "",
@@ -41,6 +43,29 @@ const ContactForm = ({ property }: ContactFormProps) => {
       });
     }, 1500);
   };
+
+  // Execute tracking code after successful form submission
+  useEffect(() => {
+    if (formSubmitted) {
+      // Add conversion tracking
+      const trackScript = document.createElement('script');
+      trackScript.async = true;
+      trackScript.src = "//cdn.trackdesk.com/tracking.js";
+      document.head.appendChild(trackScript);
+
+      const conversionScript = document.createElement('script');
+      conversionScript.text = `
+        (function(t,d,k){(t[k]=t[k]||[]).push(d);t[d]=t[d]||t[k].f||function(){(t[d].q=t[d].q||[]).push(arguments)}})(window,"trackdesk","TrackdeskObject");
+        trackdesk("g-mentors", "conversion", {
+          "conversionType": "lead"
+        });
+      `;
+      document.head.appendChild(conversionScript);
+      
+      // Reset the state after tracking
+      setFormSubmitted(false);
+    }
+  }, [formSubmitted]);
 
   return (
     <div className="bg-white rounded-xl shadow-card p-6 md:p-8">
