@@ -98,6 +98,10 @@ const PropertyDetail = () => {
                 area={property.area}
                 description={property.description}
                 features={property.features}
+                communityAmenities={property.communityAmenities}
+                propertyInfo={property.propertyInfo}
+                price={property.price}
+                discountedPrice={property.discountedPrice}
               />
               
               <PropertyLocation address={property.address} />

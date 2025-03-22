@@ -1,9 +1,9 @@
-
 export interface Property {
   id: number;
   title: string;
   address: string;
   price: number;
+  discountedPrice?: number;
   bedrooms: number;
   bathrooms: number;
   area: number; // in square feet
@@ -13,6 +13,16 @@ export interface Property {
   images: string[];
   type: 'House' | 'Apartment' | 'Condo' | 'Villa';
   status: 'For Sale' | 'For Rent';
+  communityAmenities?: string[];
+  propertyInfo?: {
+    yearBuilt?: number;
+    lotSize?: string;
+    garageSpaces?: number;
+    basement?: boolean;
+    heating?: string;
+    cooling?: string;
+    [key: string]: any;
+  };
 }
 
 export const properties: Property[] = [
@@ -21,19 +31,19 @@ export const properties: Property[] = [
     title: "3 Spacious Bedrooms in Dubai",
     address: "Dubai",
     price: 1250000,
+    discountedPrice: 1150000,
     bedrooms: 3,
     bathrooms: 3.5,
     area: 3200,
     description: "Discover modern luxury in this exquisite 3-bedroom townhouse at Reportage Hills. Designed for contemporary living, this spacious home boasts high-end finishes, panoramic windows, and breathtaking city views. The open-plan layout seamlessly connects stylish interiors with functional elegance, making it ideal for families and those seeking refined comfort.",
     features: [
       "Spacious Bedrooms – Three elegantly designed bedrooms with premium finishes.",
-"Bright & Airy Living Room – Panoramic windows flood the space with natural light.",
-"Gourmet Kitchen – Fully equipped with modern appliances and sleek cabinetry.",
-"Luxury Bathrooms – Three sophisticated bathrooms with high-end fixtures.",
-"Private Balcony – Enjoy stunning views of the city and lush surroundings.",
-"Dedicated Parking – Convenient parking space with easy access to amenities."
+      "Bright & Airy Living Room – Panoramic windows flood the space with natural light.",
+      "Gourmet Kitchen – Fully equipped with modern appliances and sleek cabinetry.",
+      "Luxury Bathrooms – Three sophisticated bathrooms with high-end fixtures.",
+      "Private Balcony – Enjoy stunning views of the city and lush surroundings.",
+      "Dedicated Parking – Convenient parking space with easy access to amenities."
     ],
-
     image: "/4.webp",
     images: [
       "/4.webp",
@@ -42,13 +52,30 @@ export const properties: Property[] = [
       "/1.webp"
     ],
     type: "Villa",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Swimming Pool",
+      "Fitness Center",
+      "Children's Playground",
+      "Tennis Courts",
+      "Gated Community",
+      "24/7 Security"
+    ],
+    propertyInfo: {
+      yearBuilt: 2022,
+      lotSize: "5,000 sq ft",
+      garageSpaces: 2,
+      basement: true,
+      heating: "Central",
+      cooling: "Central Air"
+    }
   },
   {
     id: 2,
     title: "Urban Luxury Apartment",
     address: "456 Downtown Ave, New York, NY 10013",
     price: 850000,
+    discountedPrice: 799000,
     bedrooms: 2,
     bathrooms: 2,
     area: 1800,
@@ -71,13 +98,30 @@ export const properties: Property[] = [
       "/property-2-bedroom.jpg"
     ],
     type: "Apartment",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Rooftop Garden",
+      "Resident Lounge",
+      "Package Service",
+      "Concierge Service",
+      "Bike Storage",
+      "Pet Spa"
+    ],
+    propertyInfo: {
+      yearBuilt: 2018,
+      lotSize: "N/A",
+      garageSpaces: 1,
+      basement: false,
+      heating: "Forced Air",
+      cooling: "Central Air"
+    }
   },
   {
     id: 3,
     title: "Coastal Dream Home",
     address: "789 Shoreline Rd, Malibu, CA 90265",
     price: 3950000,
+    discountedPrice: 3750000,
     bedrooms: 5,
     bathrooms: 4.5,
     area: 4500,
@@ -100,13 +144,30 @@ export const properties: Property[] = [
       "/property-3-bedroom.jpg"
     ],
     type: "House",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Private Beach",
+      "Beach Club",
+      "24/7 Security",
+      "Community Dock",
+      "Tennis Courts",
+      "Golf Course"
+    ],
+    propertyInfo: {
+      yearBuilt: 2020,
+      lotSize: "0.8 acres",
+      garageSpaces: 3,
+      basement: false,
+      heating: "Radiant",
+      cooling: "Central Air"
+    }
   },
   {
     id: 4,
     title: "Mountain View Chalet",
     address: "321 Alpine Way, Aspen, CO 81611",
     price: 2750000,
+    discountedPrice: 2550000,
     bedrooms: 4,
     bathrooms: 3,
     area: 3800,
@@ -129,13 +190,30 @@ export const properties: Property[] = [
       "/property-4-bedroom.jpg"
     ],
     type: "House",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Ski-in/Ski-out Access",
+      "Private Shuttle",
+      "Club House",
+      "Heated Trails",
+      "On-site Management",
+      "Concierge Services"
+    ],
+    propertyInfo: {
+      yearBuilt: 2017,
+      lotSize: "0.6 acres",
+      garageSpaces: 2,
+      basement: true,
+      heating: "Radiant",
+      cooling: "None"
+    }
   },
   {
     id: 5,
     title: "Historic Brownstone",
     address: "567 Heritage St, Boston, MA 02116",
     price: 1650000,
+    discountedPrice: 1580000,
     bedrooms: 3,
     bathrooms: 2.5,
     area: 2400,
@@ -158,13 +236,30 @@ export const properties: Property[] = [
       "/property-5-bedroom.jpg"
     ],
     type: "House",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Historic District",
+      "Community Gardens",
+      "Local Shops",
+      "Farmers Market",
+      "Public Transportation",
+      "Parks"
+    ],
+    propertyInfo: {
+      yearBuilt: 1890,
+      lotSize: "0.15 acres",
+      garageSpaces: 0,
+      basement: true,
+      heating: "Forced Air",
+      cooling: "Central Air"
+    }
   },
   {
     id: 6,
     title: "Luxury Waterfront Condo",
     address: "789 Harbor View, Miami, FL 33131",
     price: 1150000,
+    discountedPrice: 1050000,
     bedrooms: 3,
     bathrooms: 2,
     area: 1950,
@@ -187,13 +282,30 @@ export const properties: Property[] = [
       "/property-6-bedroom.jpg"
     ],
     type: "Condo",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Marina Access",
+      "Infinity Pool",
+      "Fitness Center",
+      "Private Beach",
+      "Tennis Courts",
+      "Valet Parking"
+    ],
+    propertyInfo: {
+      yearBuilt: 2019,
+      lotSize: "N/A",
+      garageSpaces: 2,
+      basement: false,
+      heating: "Central",
+      cooling: "Central Air"
+    }
   },
   {
     id: 7,
     title: "Countryside Estate",
     address: "1010 Rural Route, Greenwich, CT 06830",
     price: 4250000,
+    discountedPrice: 3950000,
     bedrooms: 6,
     bathrooms: 5.5,
     area: 6200,
@@ -216,13 +328,30 @@ export const properties: Property[] = [
       "/property-7-bedroom.jpg"
     ],
     type: "House",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Gated Community",
+      "Equestrian Facilities",
+      "Walking Trails",
+      "Private Lake",
+      "Clubhouse",
+      "Golf Course"
+    ],
+    propertyInfo: {
+      yearBuilt: 2015,
+      lotSize: "5 acres",
+      garageSpaces: 6,
+      basement: true,
+      heating: "Radiant",
+      cooling: "Central Air"
+    }
   },
   {
     id: 8,
     title: "Desert Modern Oasis",
     address: "888 Canyon View, Scottsdale, AZ 85262",
     price: 1850000,
+    discountedPrice: 1750000,
     bedrooms: 3,
     bathrooms: 3.5,
     area: 3100,
@@ -245,6 +374,22 @@ export const properties: Property[] = [
       "/property-8-bedroom.jpg"
     ],
     type: "House",
-    status: "For Sale"
+    status: "For Sale",
+    communityAmenities: [
+      "Desert Botanical Garden",
+      "Hiking Trails",
+      "Golf Course",
+      "Community Pool",
+      "Fitness Center",
+      "Tennis Courts"
+    ],
+    propertyInfo: {
+      yearBuilt: 2021,
+      lotSize: "0.75 acres",
+      garageSpaces: 3,
+      basement: false,
+      heating: "Forced Air",
+      cooling: "Central Air"
+    }
   }
 ];

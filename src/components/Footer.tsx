@@ -9,7 +9,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-estate-primary mb-4 font-display">DwellingDetails</h3>
+            <div className="flex items-center mb-4">
+              <img src="/lovable-uploads/327c674c-9212-4ef4-8343-a71ad9a874d3.png" alt="Global Mentors" className="h-8 mr-2" />
+              <h3 className="text-2xl font-bold text-estate-primary font-display">GLOBAL MENTORS</h3>
+            </div>
             <p className="mb-6 text-estate-lightText">
               Finding your dream home has never been easier. Explore our curated selection of premium properties.
             </p>
@@ -100,7 +103,7 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin size={20} className="text-estate-primary mt-1 mr-3 flex-shrink-0" />
                 <p className="text-estate-lightText">
-                  123 Real Estate Blvd, Beverly Hills, CA 90210
+                  123 Global Mentors Blvd, Beverly Hills, CA 90210
                 </p>
               </div>
               <div className="flex items-center">
@@ -109,7 +112,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="text-estate-primary mr-3 flex-shrink-0" />
-                <p className="text-estate-lightText">info@dwellingdetails.com</p>
+                <p className="text-estate-lightText">info@globalmentors.com</p>
               </div>
             </div>
           </div>
@@ -117,7 +120,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200/10 mt-12 pt-6 text-center">
           <p className="text-sm text-estate-lightText">
-            © {new Date().getFullYear()} DwellingDetails. All rights reserved.
+            © {new Date().getFullYear()} GLOBAL MENTORS. All rights reserved.
           </p>
         </div>
       </div>
