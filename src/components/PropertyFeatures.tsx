@@ -62,8 +62,8 @@ const PropertyFeatures = ({
           <h2 className="text-xl font-semibold mb-2 font-display text-green-700">Price After Discount</h2>
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-green-800 text-lg font-bold">${discountedPrice.toLocaleString()}</p>
-              <p className="text-green-600 text-sm">You save: ${(price - discountedPrice).toLocaleString()} ({discount}%)</p>
+              <p className="text-green-800 text-lg font-bold">KES {discountedPrice.toLocaleString()}</p>
+              <p className="text-green-600 text-sm">You save: KES {(price - discountedPrice).toLocaleString()} ({discount}%)</p>
             </div>
             <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full font-medium">
               Limited Time Offer

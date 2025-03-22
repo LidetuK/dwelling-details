@@ -12,7 +12,7 @@ export const property2: Property = {
   area: 1800,
   description: "Verdana is a masterfully designed residential community that seamlessly blends contemporary architecture with lush natural surroundings. Spanning over 454,000 sq. ft., this exclusive development offers spacious townhouses within a vibrant yet serene environment, making it a perfect retreat in the heart of Dubai.Strategically located in Dubai Investments Park (DIP), Verdana provides exceptional connectivity to major highways like Emirates Road, Dubai Expo 2020, and District 2020, ensuring easy access to the city's top destinations. Designed for both fast-paced urban lifestyles and peaceful retreats, Verdana offers residents a harmonious balance of vibrancy and tranquility.",
   features: [
-    "Private Balconies & Terraces – Enjoy stunning views and outdoor relaxation tailored to each unit’s design.",
+    "Private Balconies & Terraces – Enjoy stunning views and outdoor relaxation tailored to each unit's design.",
 "Premium Finishes – Elegant kitchen cabinets, sleek countertops, and fully tiled modern bathrooms.",
 "Double-Glazed Windows – Enhancing energy efficiency and reducing noise for a peaceful living environment.",
 "Smart Living – Equipped with a satellite master antenna and fiber-optic connectivity for high-speed internet.",
@@ -23,13 +23,13 @@ export const property2: Property = {
 "Grand Living Areas – Expansive, double-height living spaces that exude elegance.",
 "Private Parking & Entrance – Offering exclusivity and ease of access."
   ],
-  image: "/5.webp",
+  image: "/Verdana-Townhouses-Dubai-main.webp",
   images: [
-    "/5.webp",
-    "/6.webp",
-    "/7.jpg",
-    "/8.jpg",
-    "/9.jpg"
+    "/Verdana-Townhouses-Dubai-main.webp",
+    "/Verdana-Townhouses-Dubai-2.webp",
+    "/Verdana-Townhouses-Dubai-3.jpg",
+    "/Verdana-Townhouses-Dubai-4.jpg",
+    "/Verdana-Townhouses-Dubai-5.jpg"
   ],
   type: "Apartment",
   status: "For Sale",

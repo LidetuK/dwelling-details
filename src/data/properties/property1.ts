@@ -1,3 +1,4 @@
+
 import { Property } from "@/types/property";
 
 export const property1: Property = {
@@ -6,7 +7,7 @@ export const property1: Property = {
   address: "Dubai",
   price: 423941.05,
   discountedPrice: 423941.05, // Keeping it a number
-  discountLabel: "40% : 423,941.05 USD for cash only", // New field for display
+  discountLabel: "40% : 423,941.05 KES for cash only", // Updated currency
   bedrooms: 3,
   bathrooms: 3.5,
   area: 3200,
@@ -20,18 +21,22 @@ export const property1: Property = {
     "Private Balcony – Enjoy stunning views of the city and lush surroundings.",
     "Dedicated Parking – Convenient parking space with easy access to amenities.",
   ],
-  image: "/4.webp",
-  images: ["/4.webp", "/2.webp", "/3.webp", "/1.webp"],
+  image: "/3-Spacious-Bedrooms-in-Dubai-main.webp",
+  images: [
+    "/3-Spacious-Bedrooms-in-Dubai-main.webp", 
+    "/3-Spacious-Bedrooms-in-Dubai-2.webp", 
+    "/3-Spacious-Bedrooms-in-Dubai-3.webp", 
+    "/3-Spacious-Bedrooms-in-Dubai-4.webp"
+  ],
   type: "Villa",
   status: "For Sale",
   communityAmenities: [
     "Resort-Style Pools – Luxury swimming pools with serene relaxation areas.",
     "State-of-the-Art Gym – Fully equipped fitness center for an active lifestyle.",
     "Scenic Gardens & Walking Trails – Beautifully landscaped spaces for leisure.",
-    "Children’s Play Areas – Safe and engaging play zones for families.",
+    "Children's Play Areas – Safe and engaging play zones for families.",
     "Retail & Dining – Shops and fine dining cafés within the community.",
     "24/7 Security – Round-the-clock surveillance for peace of mind.",
     "Prime Location – Easy access to major roads and key Dubai landmarks.",
   ],
-  
 };

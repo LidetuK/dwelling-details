@@ -22,12 +22,11 @@ export const property3: Property = {
     "Free WiFi – Stay connected with high-speed internet access.",
     "Secure Parking – Free private parking for residents and guests."
   ],
-  image: "/13.jpeg",
+  image: "/Palm-Ridge-Vipingo-Estate-main.jpeg",
   images: [
-    "/13.jpeg",
-    "/14.jpeg",
-    "/15.jpeg",
-    
+    "/Palm-Ridge-Vipingo-Estate-main.jpeg",
+    "/Palm-Ridge-Vipingo-Estate-2.jpeg",
+    "/Palm-Ridge-Vipingo-Estate-3.jpeg",
   ],
   type: "House",
   status: "For Sale",
@@ -36,6 +35,6 @@ export const property3: Property = {
 "Lush Landscaping – Beautifully designed gardens and green spaces.",
 "Proximity to Attractions – Close to Jumba la Mtwana (11 miles) and Haller Park (17 miles).",
 "Easy Airport Access – 29 miles from Moi International Airport for convenient travel.",
-"Serene Coastal Living – Experience the tranquility of Vipingo’s upscale neighborhood."
+"Serene Coastal Living – Experience the tranquility of Vipingo's upscale neighborhood."
   ],
 };

@@ -21,12 +21,12 @@ export const property8: Property = {
     "Custom lighting",
     "Water feature"
   ],
-  image: "/property-8-main.jpg",
+  image: "/Desert-Modern-Oasis-main.jpg",
   images: [
-    "/property-8-main.jpg",
-    "/property-8-living.jpg",
-    "/property-8-kitchen.jpg",
-    "/property-8-bedroom.jpg"
+    "/Desert-Modern-Oasis-main.jpg",
+    "/Desert-Modern-Oasis-living.jpg",
+    "/Desert-Modern-Oasis-kitchen.jpg",
+    "/Desert-Modern-Oasis-bedroom.jpg"
   ],
   type: "House",
   status: "For Sale",

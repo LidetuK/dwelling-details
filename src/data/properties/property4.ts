@@ -16,14 +16,13 @@ export const property4: Property = {
 "Spacious Balcony – Enjoy a relaxing sitting area with views of the swimming pool.",
 "Prime Location – Situated on Mt. Kenya Road, 2nd row from the beach.",
 "Fully Furnished – Designed for comfort and convenience.",
-"Easy Beach Access – Just a few minutes’ walk to the shoreline."
+"Easy Beach Access – Just a few minutes' walk to the shoreline."
   ],
-  image: "/24.jpeg",
+  image: "/Nyali-Luxury-Apartments-main.jpeg",
   images: [
-    "/24.jpeg",
-    "/22.jpeg",
-    
-    "/22.jpeg"
+    "/Nyali-Luxury-Apartments-main.jpeg",
+    "/Nyali-Luxury-Apartments-2.jpeg",
+    "/Nyali-Luxury-Apartments-3.jpeg"
   ],
   type: "House",
   status: "For Sale",
@@ -37,5 +36,4 @@ export const property4: Property = {
 "High-Speed WiFi – Stay connected with reliable internet access.",
 "Backup Power Supply – Ensuring uninterrupted electricity."
   ],
-  
 };

@@ -10,7 +10,7 @@ export const property6: Property = {
   bedrooms: 3,
   bathrooms: 2,
   area: 1950,
-  description: "📍 Prime Location: Mombasa Road, Opposite JKIA A high-yield investment opportunity offering fully managed and serviced hotel apartments. Ideal for investors looking for high ROI without the hassle of property management or maintenance. 🌍 Target Market: Hosting a mix of international and local business travelers arriving via JKIA, ensuring consistent occupancy and rental income. Available Units & Pricing 🏨 Studio Apartments – From $60,720 (33 sqm) 🏨 King Studio Apartments – From $80,960 (44 sqm) 🏨 Standard One-Bedroom Apartments – From $90,160 (49 sqm) 🏨 King One-Bedroom Apartments – From $97,520 (53 sqm) 📆 Flexible 30-Month Payment Plan Available!",
+  description: "📍 Prime Location: Mombasa Road, Opposite JKIA A high-yield investment opportunity offering fully managed and serviced hotel apartments. Ideal for investors looking for high ROI without the hassle of property management or maintenance. 🌍 Target Market: Hosting a mix of international and local business travelers arriving via JKIA, ensuring consistent occupancy and rental income. Available Units & Pricing 🏨 Studio Apartments – From KES 60,720 (33 sqm) 🏨 King Studio Apartments – From KES 80,960 (44 sqm) 🏨 Standard One-Bedroom Apartments – From KES 90,160 (49 sqm) 🏨 King One-Bedroom Apartments – From KES 97,520 (53 sqm) 📆 Flexible 30-Month Payment Plan Available!",
   features: [
     " Fully Furnished & Serviced – Move-in ready with stylish interiors and modern appliances.",
 "High ROI Investment – Hassle-free management with guaranteed rental demand.",
@@ -22,12 +22,12 @@ export const property6: Property = {
 "Private Balconies – Enjoy city and airport views.",
 "Soundproof Windows – Ensuring a quiet and peaceful living environment."
   ],
-  image: "/32.webp",
+  image: "/Mombasa-Road-Apartments-main.webp",
   images: [
-    "/31.jpeg",
-    "/32.webp",
-    "/34.webp",
-    "/37.webp"
+    "/Mombasa-Road-Apartments-1.jpeg",
+    "/Mombasa-Road-Apartments-main.webp",
+    "/Mombasa-Road-Apartments-3.webp",
+    "/Mombasa-Road-Apartments-4.webp"
   ],
   type: "Condo",
   status: "For Sale",
@@ -42,5 +42,4 @@ export const property6: Property = {
 "24/7 Security & Surveillance – Ensuring safety and peace of mind.",
 "Backup Power & Water Supply – Uninterrupted utilities for continuous comfort."
   ],
- 
 };

@@ -10,7 +10,7 @@ export const property7: Property = {
   bedrooms: 6,
   bathrooms: 5.5,
   area: 6200,
-  description: "📍 Prime Location: Sports Road, Westlands This iconic 25-floor development blends residential, hotel apartments, and commercial spaces, offering a high-end urban lifestyle in one of Nairobi’s most sought-after locations. 🏢 Building Layout: 5th – 14th Floor: Residential Apartments (Studio, 1 & 2 Bedrooms) 15th – 24th Floor: Fully Serviced Hotel Apartments 6 Levels of Parking 💰 Unit Prices & Sizes 🏠 Studio (41 sqm) – $60,270 🏠 1-Bedroom (70 sqm) – $102,900 🏠 2-Bedroom (90 sqm) – $132,300 📆 Flexible 30-Month Payment Plan ✅ 15% on reservation ✅ 15% on signing the Sale Agreement ✅ 50% spread over construction ✅ 20% on handover",
+  description: "📍 Prime Location: Sports Road, Westlands This iconic 25-floor development blends residential, hotel apartments, and commercial spaces, offering a high-end urban lifestyle in one of Nairobi's most sought-after locations. 🏢 Building Layout: 5th – 14th Floor: Residential Apartments (Studio, 1 & 2 Bedrooms) 15th – 24th Floor: Fully Serviced Hotel Apartments 6 Levels of Parking 💰 Unit Prices & Sizes 🏠 Studio (41 sqm) – KES 60,270 🏠 1-Bedroom (70 sqm) – KES 102,900 🏠 2-Bedroom (90 sqm) – KES 132,300 📆 Flexible 30-Month Payment Plan ✅ 15% on reservation ✅ 15% on signing the Sale Agreement ✅ 50% spread over construction ✅ 20% on handover",
   features: [
     "Modern & Spacious Apartments – Thoughtfully designed layouts for comfortable living.",
 "Premium Finishes – High-end materials and elegant interiors.",
@@ -20,12 +20,12 @@ export const property7: Property = {
 "Luxurious Bathrooms – Stylish fixtures and top-notch craftsmanship.",
 "Balconies with Scenic Views – Enjoy the beauty of Westlands."
   ],
-  image: "/43.webp",
+  image: "/Westlands-Apartments-main.webp",
   images: [
-    "/41.webp",
-    "/40.webp",
-    "/42.jpeg",
-    "/43.webp"
+    "/Westlands-Apartments-1.webp",
+    "/Westlands-Apartments-2.webp",
+    "/Westlands-Apartments-3.jpeg",
+    "/Westlands-Apartments-main.webp"
   ],
   type: "House",
   status: "For Sale",
@@ -43,5 +43,4 @@ export const property7: Property = {
 "Fully Backed Generator – Uninterrupted power supply.",
 "Coffee Place & Lounge Area – Perfect for work or relaxation."
   ],
-  
 };
