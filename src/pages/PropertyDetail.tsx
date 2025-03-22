@@ -12,6 +12,7 @@ import SimilarProperties from "@/components/SimilarProperties";
 import ContactForm from "@/components/ContactForm";
 import { MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { createSlug } from "@/lib/utils";
 
 const PropertyDetail = () => {
   const { slug } = useParams<{ slug: string }>();
