@@ -3,10 +3,10 @@ import { Property } from "@/types/property";
 
 export const property1: Property = {
   id: 1,
-  title: "3 Spacious Bedrooms in Dubai",
+  title: "Three Spacious Bedrooms in Dubai",
   address: "Dubai",
-  price: 423941.05,
-  discountedPrice: 423941.05, // Keeping it a number
+  price: 423941.00,
+  discountedPrice: 423941.00, // Keeping it a number
   discountLabel: "40% : 423,941.05 KES for cash only", // Updated currency
   bedrooms: 3,
   bathrooms: 3.5,
@@ -21,12 +21,12 @@ export const property1: Property = {
     "Private Balcony – Enjoy stunning views of the city and lush surroundings.",
     "Dedicated Parking – Convenient parking space with easy access to amenities.",
   ],
-  image: "/3-Spacious-Bedrooms-in-Dubai-main.webp",
+  image: "/1.webp",
   images: [
-    "/3-Spacious-Bedrooms-in-Dubai-main.webp", 
-    "/3-Spacious-Bedrooms-in-Dubai-2.webp", 
-    "/3-Spacious-Bedrooms-in-Dubai-3.webp", 
-    "/3-Spacious-Bedrooms-in-Dubai-4.webp"
+    "/1.webp", 
+    "/2.webp", 
+    "/3.webp", 
+    "/4.webp"
   ],
   type: "Villa",
   status: "For Sale",

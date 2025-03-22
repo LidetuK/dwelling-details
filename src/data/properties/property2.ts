@@ -5,8 +5,8 @@ export const property2: Property = {
   id: 2,
   title: "Verdana Townhouses Dubai",
   address: "Dubai",
-  price: 850000,
-  discountedPrice: 799000,
+  price: 462.00,
+  discountedPrice: 462.00,
   bedrooms: 2,
   bathrooms: 2,
   area: 1800,
@@ -23,13 +23,13 @@ export const property2: Property = {
 "Grand Living Areas – Expansive, double-height living spaces that exude elegance.",
 "Private Parking & Entrance – Offering exclusivity and ease of access."
   ],
-  image: "/Verdana-Townhouses-Dubai-main.webp",
+  image: "/5.webp",
   images: [
-    "/Verdana-Townhouses-Dubai-main.webp",
-    "/Verdana-Townhouses-Dubai-2.webp",
-    "/Verdana-Townhouses-Dubai-3.jpg",
-    "/Verdana-Townhouses-Dubai-4.jpg",
-    "/Verdana-Townhouses-Dubai-5.jpg"
+    "/5.webp",
+    "/6.webp",
+    "/7.jpg",
+    "/8.jpg",
+    
   ],
   type: "Apartment",
   status: "For Sale",
@@ -41,12 +41,5 @@ export const property2: Property = {
     "Bike Storage",
     "Pet Spa"
   ],
-  propertyInfo: {
-    yearBuilt: 2027,
-    lotSize: "N/A",
-    garageSpaces: 1,
-    basement: false,
-    heating: "Forced Air",
-    cooling: "Central Air"
-  }
+ 
 };

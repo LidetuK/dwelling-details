@@ -5,8 +5,8 @@ export const property5: Property = {
   id: 5,
   title: "Contemporary 1- & 2-Bedroom Apartments for Sale",
   address: "Kilimani",
-  price: 1650000,
-  discountedPrice: 1580000,
+  price: 4900000.00,
+  discountedPrice: 4900000.00,
   bedrooms: 3,
   bathrooms: 2.5,
   area: 2400,
@@ -23,11 +23,11 @@ export const property5: Property = {
 "Perimeter Wall with Electric Fence – 24/7 security for peace of mind",
 "Solar Water Heating System – Energy-efficient hot water supply"
   ],
-  image: "/Kilimani-Apartments-main.jpg",
+  image: "/23.jpg",
   images: [
-    "/Kilimani-Apartments-1.jpeg",
-    "/Kilimani-Apartments-2.jpeg",
-    "/Kilimani-Apartments-main.jpg"
+    "/24.jpeg",
+    "/24.jpg",
+    "/25.jpg"
   ],
   type: "House",
   status: "For Sale",

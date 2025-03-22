@@ -43,7 +43,7 @@ const PropertyDetailFooter = () => {
               <div className="flex items-start">
                 <MapPin size={20} className="text-estate-primary mt-1 mr-3 flex-shrink-0" />
                 <p className="text-estate-lightText">
-                  123 Real Estate Blvd, Beverly Hills, CA 90210
+                  Kenya, Nairobi 
                 </p>
               </div>
               <div className="flex items-center">
@@ -52,7 +52,7 @@ const PropertyDetailFooter = () => {
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="text-estate-primary mr-3 flex-shrink-0" />
-                <p className="text-estate-lightText">info@dwellingdetails.com</p>
+                <p className="text-estate-lightText">info@globalmentors.com</p>
               </div>
             </div>
           </div>

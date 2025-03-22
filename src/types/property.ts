@@ -13,8 +13,8 @@ export interface Property {
   features: string[];
   image: string;
   images: string[];
-  type: 'House' | 'Apartment' | 'Condo' | 'Villa';
-  status: 'For Sale' | 'For Rent';
+  type: 'House' | 'Apartment' | 'Condo' | 'Villa' | 'Hotel';
+  status: 'For Sale' | 'For Rent' | 'per night';
   communityAmenities?: string[];
   propertyInfo?: {
     yearBuilt?: number;

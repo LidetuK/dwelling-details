@@ -5,8 +5,8 @@ export const property6: Property = {
   id: 6,
   title: "Studio and 1 bedroom apartments",
   address: "Mombasa road",
-  price: 1150000,
-  discountedPrice: 1050000,
+  price: 60720.00,
+  discountedPrice: 60720.00,
   bedrooms: 3,
   bathrooms: 2,
   area: 1950,
@@ -22,12 +22,12 @@ export const property6: Property = {
 "Private Balconies – Enjoy city and airport views.",
 "Soundproof Windows – Ensuring a quiet and peaceful living environment."
   ],
-  image: "/Mombasa-Road-Apartments-main.webp",
+  image: "/30.jpeg",
   images: [
-    "/Mombasa-Road-Apartments-1.jpeg",
-    "/Mombasa-Road-Apartments-main.webp",
-    "/Mombasa-Road-Apartments-3.webp",
-    "/Mombasa-Road-Apartments-4.webp"
+    "/31.jpeg",
+    "/32.webp",
+    "/34.webp",
+    "/36.webp"
   ],
   type: "Condo",
   status: "For Sale",

@@ -5,8 +5,8 @@ export const property7: Property = {
   id: 7,
   title: "Studio , 1 and 2 Bedrooms",
   address: "westlands",
-  price: 4250000,
-  discountedPrice: 3950000,
+  price: 60270.00,
+  discountedPrice: 60270.00,
   bedrooms: 6,
   bathrooms: 5.5,
   area: 6200,
@@ -20,12 +20,12 @@ export const property7: Property = {
 "Luxurious Bathrooms – Stylish fixtures and top-notch craftsmanship.",
 "Balconies with Scenic Views – Enjoy the beauty of Westlands."
   ],
-  image: "/Westlands-Apartments-main.webp",
+  image: "/eveningcam.png",
   images: [
-    "/Westlands-Apartments-1.webp",
-    "/Westlands-Apartments-2.webp",
-    "/Westlands-Apartments-3.jpeg",
-    "/Westlands-Apartments-main.webp"
+    "/40.webp",
+    "/41.webp",
+    "/42.jpeg",
+    "/43.webp"
   ],
   type: "House",
   status: "For Sale",

@@ -5,11 +5,11 @@ export const property3: Property = {
   id: 3,
   title: "1255 Palm Ridge Vipingo Estate",
   address: "Vipingo",
-  price: 3950000,
-  discountedPrice: 3750000,
-  bedrooms: 5,
+  price: 130.00,
+ 
+  bedrooms: 1,
   bathrooms: 4.5,
-  area: 4500,
+  area: 1500,
   description: "Featuring a private pool and garden views, 1255 Palm Ridge Vipingo Estate, Deluxe 3 Bedroomed Apartments is located in Kilifi. This property has a balcony, free private parking and free Wifi. The apartment is composed of 2 bedrooms, a living room, a fully equipped kitchen, and 3 bathrooms. A flat-screen TV is offered. Jumba la Mtwana is 11 miles from the apartment, while Haller Park is 17 miles from the property. The nearest airport is Moi International Airport, 29 miles from 1255 Palm Ridge Vipingo Estate, Deluxe 3 Bedroomed Apartments.",
   features: [
     "Private Pool – Enjoy exclusive access to your own swimming pool for ultimate relaxation.",
@@ -22,14 +22,14 @@ export const property3: Property = {
     "Free WiFi – Stay connected with high-speed internet access.",
     "Secure Parking – Free private parking for residents and guests."
   ],
-  image: "/Palm-Ridge-Vipingo-Estate-main.jpeg",
+  image: "/13.jpeg",
   images: [
-    "/Palm-Ridge-Vipingo-Estate-main.jpeg",
-    "/Palm-Ridge-Vipingo-Estate-2.jpeg",
-    "/Palm-Ridge-Vipingo-Estate-3.jpeg",
+    "/13.jpeg",
+    "/14.jpeg",
+    "/15.jpeg",
   ],
-  type: "House",
-  status: "For Sale",
+  type: "Hotel",
+  status: "per night",
   communityAmenities: [
     "Gated Community – Secure and well-maintained residential estate.",
 "Lush Landscaping – Beautifully designed gardens and green spaces.",
