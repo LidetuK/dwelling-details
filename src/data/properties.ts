@@ -18,29 +18,28 @@ export interface Property {
 export const properties: Property[] = [
   {
     id: 1,
-    title: "Modern Lakeside Villa",
-    address: "123 Lakeview Drive, Beverly Hills, CA 90210",
+    title: "3 Spacious Bedrooms in Dubai",
+    address: "Dubai",
     price: 1250000,
-    bedrooms: 4,
+    bedrooms: 3,
     bathrooms: 3.5,
     area: 3200,
-    description: "Experience luxury living in this stunning lakeside villa with panoramic views. This elegant property features high ceilings, floor-to-ceiling windows, and premium finishes throughout. The open-concept living space flows seamlessly to a chef's kitchen with top-of-the-line appliances. The primary suite offers a spa-like bathroom and walk-in closet. Outside, enjoy the pristine landscaped yard with a custom infinity pool overlooking the lake. Perfect for entertaining and creating memories.",
+    description: "Discover modern luxury in this exquisite 3-bedroom townhouse at Reportage Hills. Designed for contemporary living, this spacious home boasts high-end finishes, panoramic windows, and breathtaking city views. The open-plan layout seamlessly connects stylish interiors with functional elegance, making it ideal for families and those seeking refined comfort.",
     features: [
-      "Infinity pool",
-      "Smart home technology",
-      "Gourmet kitchen",
-      "Wine cellar",
-      "Home theater",
-      "Panoramic lake views",
-      "Custom lighting",
-      "3-car garage"
+      "Spacious Bedrooms – Three elegantly designed bedrooms with premium finishes.",
+"Bright & Airy Living Room – Panoramic windows flood the space with natural light.",
+"Gourmet Kitchen – Fully equipped with modern appliances and sleek cabinetry.",
+"Luxury Bathrooms – Three sophisticated bathrooms with high-end fixtures.",
+"Private Balcony – Enjoy stunning views of the city and lush surroundings.",
+"Dedicated Parking – Convenient parking space with easy access to amenities."
     ],
-    image: "/property-1-main.jpg",
+
+    image: "/4.webp",
     images: [
-      "/property-1-main.jpg",
-      "/property-1-living.jpg",
-      "/property-1-kitchen.jpg",
-      "/property-1-bedroom.jpg"
+      "/4.webp",
+      "/2.webp",
+      "/3.webp",
+      "/1.webp"
     ],
     type: "Villa",
     status: "For Sale"
