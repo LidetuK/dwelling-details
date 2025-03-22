@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Property } from "@/data/properties";
 import { Bed, Bath, Home, MapPin, ArrowUpRight } from "lucide-react";
 import { formatCurrency } from "@/lib/utils";
+import { createSlug } from "@/lib/utils";
 
 interface PropertyCardProps {
   property: Property;
@@ -11,7 +12,7 @@ interface PropertyCardProps {
 const PropertyCard = ({ property }: PropertyCardProps) => {
   return (
     <div className="property-card bg-white rounded-xl overflow-hidden shadow-card group">
-      <Link to={`/property/${property.id}`}>
+      <Link to={`/property/${createSlug(property.title)}`}>
         <div className="property-image-container">
           <img 
             src={property.image || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"} 

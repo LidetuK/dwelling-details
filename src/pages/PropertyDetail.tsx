@@ -14,7 +14,7 @@ import { MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const PropertyDetail = () => {
-  const { id } = useParams<{ id: string }>();
+  const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const [property, setProperty] = useState<Property | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -27,9 +27,20 @@ const PropertyDetail = () => {
     // Simulate API call
     setIsLoading(true);
     setTimeout(() => {
-      const foundProperty = properties.find(
-        (p) => p.id === Number(id)
-      );
+      let foundProperty: Property | undefined;
+      
+      // First try to find by ID (for backward compatibility)
+      const id = parseInt(slug || "0");
+      if (!isNaN(id)) {
+        foundProperty = properties.find(p => p.id === id);
+      }
+      
+      // If not found by ID, try to find by slug
+      if (!foundProperty) {
+        foundProperty = properties.find(
+          p => createSlug(p.title) === slug
+        );
+      }
       
       if (foundProperty) {
         setProperty(foundProperty);
@@ -43,7 +54,7 @@ const PropertyDetail = () => {
       
       setIsLoading(false);
     }, 500);
-  }, [id]);
+  }, [slug]);
 
   const handleGoBack = () => {
     navigate(-1);

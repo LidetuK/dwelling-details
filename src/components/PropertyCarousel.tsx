@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { Property } from "@/data/properties";
 import { Bed, Bath, Home, ArrowUpRight } from "lucide-react";
-import { formatCurrency } from "@/lib/utils";
+import { formatCurrency, createSlug } from "@/lib/utils";
 import {
   Carousel,
   CarouselContent,
@@ -22,7 +22,7 @@ const PropertyCarousel = ({ properties }: PropertyCarouselProps) => {
         {properties.map((property) => (
           <CarouselItem key={property.id} className="pl-2 md:pl-4 sm:basis-1/2 lg:basis-1/3 xl:basis-1/4">
             <div className="property-card bg-white rounded-xl overflow-hidden shadow-card h-full group">
-              <Link to={`/property/${property.id}`} className="block h-full">
+              <Link to={`/property/${createSlug(property.title)}`} className="block h-full">
                 <div className="property-image-container">
                   <img
                     src={property.image || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"}
