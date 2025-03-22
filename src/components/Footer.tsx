@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 
@@ -10,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <img src="/lovable-uploads/327c674c-9212-4ef4-8343-a71ad9a874d3.png" alt="Global Mentors" className="h-8 mr-2" />
+              {/* Removed the logo image but kept the company name */}
               <h3 className="text-2xl font-bold text-estate-primary font-display">GLOBAL MENTORS</h3>
             </div>
             <p className="mb-6 text-estate-lightText">
@@ -103,7 +102,7 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin size={20} className="text-estate-primary mt-1 mr-3 flex-shrink-0" />
                 <p className="text-estate-lightText">
-                  123 Global Mentors Blvd, Beverly Hills, CA 90210
+                  Kenya, Nairobi
                 </p>
               </div>
               <div className="flex items-center">

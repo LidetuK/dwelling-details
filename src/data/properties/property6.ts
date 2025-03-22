@@ -3,47 +3,44 @@ import { Property } from "@/types/property";
 
 export const property6: Property = {
   id: 6,
-  title: "Luxury Waterfront Condo",
-  address: "789 Harbor View, Miami, FL 33131",
+  title: "Studio and 1 bedroom apartments",
+  address: "Mombasa road",
   price: 1150000,
   discountedPrice: 1050000,
   bedrooms: 3,
   bathrooms: 2,
   area: 1950,
-  description: "Embrace the Miami lifestyle in this stunning waterfront condo with breathtaking bay views. Floor-to-ceiling windows and an expansive balcony create a seamless connection to the water. The open floor plan features porcelain floors, designer lighting, and a sleek kitchen with European cabinetry and quartz countertops. The primary suite offers a spa-like bathroom and walk-in closet. Building amenities include infinity pool, fitness center, spa, and concierge services. Walking distance to top restaurants and shopping.",
+  description: "📍 Prime Location: Mombasa Road, Opposite JKIA A high-yield investment opportunity offering fully managed and serviced hotel apartments. Ideal for investors looking for high ROI without the hassle of property management or maintenance. 🌍 Target Market: Hosting a mix of international and local business travelers arriving via JKIA, ensuring consistent occupancy and rental income. Available Units & Pricing 🏨 Studio Apartments – From $60,720 (33 sqm) 🏨 King Studio Apartments – From $80,960 (44 sqm) 🏨 Standard One-Bedroom Apartments – From $90,160 (49 sqm) 🏨 King One-Bedroom Apartments – From $97,520 (53 sqm) 📆 Flexible 30-Month Payment Plan Available!",
   features: [
-    "Infinity pool",
-    "Fitness center",
-    "Spa",
-    "Concierge service",
-    "Private balcony",
-    "Floor-to-ceiling windows",
-    "European cabinetry",
-    "Boat slips available"
+    " Fully Furnished & Serviced – Move-in ready with stylish interiors and modern appliances.",
+"High ROI Investment – Hassle-free management with guaranteed rental demand.",
+"Spacious Layouts – Well-designed units ranging from 33 sqm – 53 sqm.",
+"Modern Finishes – Elegant décor with high-quality materials.",
+"Fully Equipped Kitchenettes – Fitted with essential appliances for convenience.",
+"Luxurious Bathrooms – Contemporary fittings and premium finishes.",
+"Smart Technology Integration – High-speed internet, smart locks, and security systems.",
+"Private Balconies – Enjoy city and airport views.",
+"Soundproof Windows – Ensuring a quiet and peaceful living environment."
   ],
-  image: "/property-6-main.jpg",
+  image: "/32.webp",
   images: [
-    "/property-6-main.jpg",
-    "/property-6-living.jpg",
-    "/property-6-kitchen.jpg",
-    "/property-6-bedroom.jpg"
+    "/31.jpeg",
+    "/32.webp",
+    "/34.webp",
+    "/37.webp"
   ],
   type: "Condo",
   status: "For Sale",
   communityAmenities: [
-    "Marina Access",
-    "Infinity Pool",
-    "Fitness Center",
-    "Private Beach",
-    "Tennis Courts",
-    "Valet Parking"
+    "24/7 Concierge & Reception – Professional service for residents and guests.",
+"State-of-the-Art Gym – Fully equipped fitness center.",
+"Swimming Pool – Relax and unwind in a well-maintained pool area.",
+"Rooftop Lounge & Restaurant – Perfect for dining and socializing.",
+"Business Center & Meeting Rooms – Ideal for business travelers.",
+"Housekeeping & Laundry Services – Hassle-free living with daily services.",
+"Secure Parking – Ample parking space for residents and guests.",
+"24/7 Security & Surveillance – Ensuring safety and peace of mind.",
+"Backup Power & Water Supply – Uninterrupted utilities for continuous comfort."
   ],
-  propertyInfo: {
-    yearBuilt: 2019,
-    lotSize: "N/A",
-    garageSpaces: 2,
-    basement: false,
-    heating: "Central",
-    cooling: "Central Air"
-  }
+ 
 };

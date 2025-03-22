@@ -7,7 +7,7 @@ import { property4 } from "./property4";
 import { property5 } from "./property5";
 import { property6 } from "./property6";
 import { property7 } from "./property7";
-import { property8 } from "./property8";
+
 
 // Re-export the Property type
 export type { Property };
@@ -20,6 +20,6 @@ export const properties: Property[] = [
   property4,
   property5,
   property6,
-  property7,
-  property8
+  property7
+ 
 ];

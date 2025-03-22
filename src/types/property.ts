@@ -5,6 +5,7 @@ export interface Property {
   address: string;
   price: number;
   discountedPrice?: number;
+  discountLabel?: string;
   bedrooms: number;
   bathrooms: number;
   area: number; // in square feet

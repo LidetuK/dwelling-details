@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
@@ -31,8 +30,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
+          {/* Kept GLOBAL MENTORS but removed the logo */}
           <Link to="/" className="flex items-center">
-            <img src="/lovable-uploads/327c674c-9212-4ef4-8343-a71ad9a874d3.png" alt="Global Mentors" className="h-8 mr-2" />
             <h1 className="text-2xl font-bold text-estate-primary">GLOBAL MENTORS</h1>
           </Link>
 

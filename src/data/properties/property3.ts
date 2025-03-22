@@ -3,47 +3,39 @@ import { Property } from "@/types/property";
 
 export const property3: Property = {
   id: 3,
-  title: "Coastal Dream Home",
-  address: "789 Shoreline Rd, Malibu, CA 90265",
+  title: "1255 Palm Ridge Vipingo Estate",
+  address: "Vipingo",
   price: 3950000,
   discountedPrice: 3750000,
   bedrooms: 5,
   bathrooms: 4.5,
   area: 4500,
-  description: "Breathtaking oceanfront property with direct beach access and unobstructed views of the Pacific. This architectural masterpiece features walls of glass that showcase the ocean from every room. The main level offers seamless indoor-outdoor living with a gourmet kitchen, spacious living areas, and expansive deck. The primary suite occupies its own wing with a luxurious bathroom, walk-in closet, and private terrace. Additional features include a media room, home office, and guest suite. A rare opportunity to own a piece of paradise.",
+  description: "Featuring a private pool and garden views, 1255 Palm Ridge Vipingo Estate, Deluxe 3 Bedroomed Apartments is located in Kilifi. This property has a balcony, free private parking and free Wifi. The apartment is composed of 2 bedrooms, a living room, a fully equipped kitchen, and 3 bathrooms. A flat-screen TV is offered. Jumba la Mtwana is 11 miles from the apartment, while Haller Park is 17 miles from the property. The nearest airport is Moi International Airport, 29 miles from 1255 Palm Ridge Vipingo Estate, Deluxe 3 Bedroomed Apartments.",
   features: [
-    "Direct beach access",
-    "Heated infinity pool",
-    "Outdoor kitchen",
-    "Floor-to-ceiling windows",
-    "Home automation system",
-    "Solar panels",
-    "Wine room",
-    "Outdoor shower"
+    "Private Pool – Enjoy exclusive access to your own swimming pool for ultimate relaxation.",
+    "Garden Views – Breathtaking views of lush greenery for a serene living experience.",
+    "Spacious Layout – A well-designed 3-bedroom apartment with ample living space.",
+    "Fully Equipped Kitchen – Modern appliances for a seamless cooking experience.",
+    "Multiple Bathrooms – Three elegant bathrooms for added convenience and privacy.",
+    "Private Balcony – Perfect for outdoor relaxation with scenic views.",
+    "Flat-Screen TV – Entertainment at your fingertips.",
+    "Free WiFi – Stay connected with high-speed internet access.",
+    "Secure Parking – Free private parking for residents and guests."
   ],
-  image: "/property-3-main.jpg",
+  image: "/13.jpeg",
   images: [
-    "/property-3-main.jpg",
-    "/property-3-living.jpg",
-    "/property-3-kitchen.jpg",
-    "/property-3-bedroom.jpg"
+    "/13.jpeg",
+    "/14.jpeg",
+    "/15.jpeg",
+    
   ],
   type: "House",
   status: "For Sale",
   communityAmenities: [
-    "Private Beach",
-    "Beach Club",
-    "24/7 Security",
-    "Community Dock",
-    "Tennis Courts",
-    "Golf Course"
+    "Gated Community – Secure and well-maintained residential estate.",
+"Lush Landscaping – Beautifully designed gardens and green spaces.",
+"Proximity to Attractions – Close to Jumba la Mtwana (11 miles) and Haller Park (17 miles).",
+"Easy Airport Access – 29 miles from Moi International Airport for convenient travel.",
+"Serene Coastal Living – Experience the tranquility of Vipingo’s upscale neighborhood."
   ],
-  propertyInfo: {
-    yearBuilt: 2020,
-    lotSize: "0.8 acres",
-    garageSpaces: 3,
-    basement: false,
-    heating: "Radiant",
-    cooling: "Central Air"
-  }
 };
