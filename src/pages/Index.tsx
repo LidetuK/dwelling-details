@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import PropertyGrid from "@/components/PropertyGrid";
+import ProductGrid from "@/components/ProductGrid";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import { ArrowRight, Home, CheckCircle2, Award, Clock } from "lucide-react";
@@ -12,6 +13,8 @@ const Index = () => {
     <div className="min-h-screen bg-estate-bgLight">
       <Navbar />
       <Hero />
+      
+      <ProductGrid />
       
       <PropertyGrid />
       

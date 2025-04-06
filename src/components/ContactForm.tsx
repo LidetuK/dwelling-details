@@ -3,17 +3,28 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { Property } from "@/data/properties";
+import { Product } from "@/data/products";
 
 interface ContactFormProps {
   property?: Property;
+  product?: {
+    title: string;
+    address?: string;
+    id: number;
+    price: number;
+  };
 }
 
-const ContactForm = ({ property }: ContactFormProps) => {
+const ContactForm = ({ property, product }: ContactFormProps) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
-    message: property ? `I'm interested in ${property.title} at ${property.address}` : "",
+    message: property 
+      ? `I'm interested in ${property.title} at ${property.address}` 
+      : product 
+        ? `I'm interested in ${product.title}` 
+        : "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -39,7 +50,11 @@ const ContactForm = ({ property }: ContactFormProps) => {
         name: "",
         email: "",
         phone: "",
-        message: property ? `I'm interested in ${property.title} at ${property.address}` : "",
+        message: property 
+          ? `I'm interested in ${property.title} at ${property.address}` 
+          : product 
+            ? `I'm interested in ${product.title}` 
+            : "",
       });
     }, 1500);
   };
@@ -70,7 +85,7 @@ const ContactForm = ({ property }: ContactFormProps) => {
   return (
     <div className="bg-white rounded-xl shadow-card p-6 md:p-8">
       <h3 className="text-2xl font-semibold mb-6 font-display">
-        {property ? "Interested in this property?" : "Contact Us"}
+        {property ? "Interested in this property?" : product ? "Interested in this product?" : "Contact Us"}
       </h3>
       
       <form onSubmit={handleSubmit} className="space-y-5">
