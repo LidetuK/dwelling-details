@@ -22,7 +22,7 @@ export const products: Product[] = [
 ✅ Hydrates your skin from within for a youthful glow
 ✅ Provides a natural energy boost—no crashes, just vitality!`,
     image: "/lovable-uploads/649b9c59-3604-4925-a9c3-da42177c63aa.png",
-    price: 29.99
+    price: 50
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const products: Product[] = [
 
 💪 Ready to transform your body and feel amazing?`,
     image: "/lovable-uploads/01ad1405-df61-4bab-8f0e-5122fac9b550.png",
-    price: 119.99
+    price: 50
   },
   {
     id: 3,
@@ -60,6 +60,6 @@ export const products: Product[] = [
 ✅ Hydrates your skin from within for a youthful glow
 ✅ Provides a natural energy boost—no crashes, just vitality!`,
     image: "/lovable-uploads/b7996962-200a-4e31-836d-e1d018f3e1dd.png",
-    price: 39.99
+    price: 50
   }
 ];
