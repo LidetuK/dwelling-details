@@ -5,11 +5,11 @@ export const property9: Property = {
   id: 9,
   title: "Plumeria Residency, 2 Bedroom Apartment on Riara Road",
   address: "Riara Road, Next to Auto Garage, 20 meters away from Junction Mall, Kilimani, Nairobi",
-  price: 12000000,
+  price: 92307.69,
   bedrooms: 2,
   bathrooms: 2,
   area: 110, // in square meters
-  description: "Plumeria Residency offers luxurious 2 and 3 bedroom apartments in the heart of Kilimani. This elegant 2-bedroom unit spans 110 square meters of thoughtfully designed living space, featuring high-end finishes and modern amenities. Located just 20 meters from Junction Mall, these apartments combine convenience with luxury living.\n\nAvailable options:\n- 2BR 110sqm: $12 million\n- 2BR 130sqm: $14.5 million\n- 3BR 130sqm: $15.5 million\n- 3BR 160sqm: $18.5 million\n\nSpecial units on the 13th, 14th, and 15th floors with stunning views of Junction and Ngong Hills are now available.",
+  description: "Plumeria Residency offers luxurious 2 and 3 bedroom apartments in the heart of Kilimani. This elegant 2-bedroom unit spans 110 square meters of thoughtfully designed living space, featuring high-end finishes and modern amenities. Located just 20 meters from Junction Mall, these apartments combine convenience with luxury living.\n\nAvailable options:\n- 2BR 110sqm: $92,307.69\n- 2BR 130sqm: $14.5 million\n- 3BR 130sqm: $15.5 million\n- 3BR 160sqm: $18.5 million\n\nSpecial units on the 13th, 14th, and 15th floors with stunning views of Junction and Ngong Hills are now available.",
   features: [
     "Premium Finishes – High-quality materials throughout the apartment",
     "Spacious Living Areas – Open floor plan with abundant natural light",
