@@ -7,6 +7,8 @@ import { property4 } from "./property4";
 import { property5 } from "./property5";
 import { property6 } from "./property6";
 import { property7 } from "./property7";
+import { property8 } from "./property8";
+import { property9 } from "./property9";
 
 
 // Re-export the Property type
@@ -21,5 +23,6 @@ export const properties: Property[] = [
   property5,
   property6,
   property7,
-  
+  property8,
+  property9
 ];
