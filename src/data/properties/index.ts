@@ -16,6 +16,7 @@ export type { Property };
 
 // Create and export the properties array
 export const properties: Property[] = [
+  property9, // Plumeria Residency now first in the list
   property1,
   property2,
   property3,
@@ -23,6 +24,5 @@ export const properties: Property[] = [
   property5,
   property6,
   property7,
-  property8,
-  property9
+  property8
 ];
