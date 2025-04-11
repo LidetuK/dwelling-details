@@ -18,14 +18,14 @@ export const property9: Property = {
     "Floor-to-Ceiling Windows – Offering panoramic city views",
     "Private Balcony – Perfect for relaxation and entertainment"
   ],
-  image: "/lovable-uploads/ec2ea096-44c1-4cfd-8ce4-e288804f1f49.png",
+  image: "/ec2ea096-44c1-4cfd-8ce4-e288804f1f49.png",
   images: [
-    "/lovable-uploads/ec2ea096-44c1-4cfd-8ce4-e288804f1f49.png",
-    "/lovable-uploads/1c605407-6667-40f9-95b6-03bf6e8ec0d1.png",
-    "/lovable-uploads/c7b8bfd2-f56b-4fbf-90ab-6b7e61e66d52.png",
-    "/lovable-uploads/138b52c9-7f01-444f-a8b6-cf2746e2ebba.png",
-    "/lovable-uploads/30a86189-2877-4177-a758-764feb9f2bc9.png",
-    "/lovable-uploads/b272f322-a164-47c5-bce0-8c67fc4fee7f.png"
+    "/ec2ea096-44c1-4cfd-8ce4-e288804f1f49.png",
+    "/1c605407-6667-40f9-95b6-03bf6e8ec0d1.png",
+    "/c7b8bfd2-f56b-4fbf-90ab-6b7e61e66d52.png",
+    "/138b52c9-7f01-444f-a8b6-cf2746e2ebba.png",
+    "/30a86189-2877-4177-a758-764feb9f2bc9.png",
+    "/b272f322-a164-47c5-bce0-8c67fc4fee7f.png"
   ],
   type: "Apartment",
   status: "For Sale",
