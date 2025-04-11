@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
@@ -71,7 +70,7 @@ const ContactForm = ({ property, product }: ContactFormProps) => {
       const conversionScript = document.createElement('script');
       conversionScript.text = `
         (function(t,d,k){(t[k]=t[k]||[]).push(d);t[d]=t[d]||t[k].f||function(){(t[d].q=t[d].q||[]).push(arguments)}})(window,"trackdesk","TrackdeskObject");
-        trackdesk("gda-test", "conversion", {
+        trackdesk("afripulse", "conversion", {
           "conversionType": "lead"
         });
       `;
